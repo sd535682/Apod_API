@@ -1,0 +1,82 @@
+* {
+  @font-face {
+    font-family: Gontserrat;
+    src: url(assets/fonts/Gontserrat_Regular.ttf);
+  }
+}
+
+body {
+  font-family: "Gontserrat";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  background-image: url(assets/img/bg.gif);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.img-ex {
+  display: flex;
+}
+
+.picture {
+  width: 50%;
+  margin-right: 1em;
+}
+
+.explanation {
+  line-height: 20px;
+  color: lightgray;
+  width: 500px;
+  height: 400px;
+  margin-bottom: 0px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 20px;
+  color: white;
+}
+
+.projectname {
+  color: white;
+}
+
+.title {
+  color: whitesmoke;
+}
+
+.endcredits {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-self: center;
+}
+
+.credit {
+  color: white;
+  margin-right: 30px;
+}
+
+.copyright {
+  color: white;
+}
+
+.capturedate {
+  color: white;
+}
+
+.random {
+  align-self: center;
+  padding: 5px;
+}

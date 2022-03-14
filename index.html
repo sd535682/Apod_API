@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="design.css" />
+    <script src="apod.js" defer></script>
+    <title>Astronomy Picture of the Day</title>
+  </head>
+  <body>
+    <main class="container">
+      <h2 class="title"></h2>
+      <h5 class="capturedate"></h5>
+      <div class="img-ex">
+        <img src="" class="picture" alt="Loading..." />
+        <div class="explanation"></div>
+      </div>
+    </main>
+    <button class="random" onclick="nextimg()">Next</button>
+    <div class="endcredits">
+      <h6 class="credit">Images from NASA APOD api</h6>
+      <h6 class="copyright"></h6>
+    </div>
+  </body>
+</html>
