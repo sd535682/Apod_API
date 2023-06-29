@@ -12,7 +12,7 @@ const getDate = () => {
   return date
 };
 
-fetch(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&start_date=${getDate()}&end_date=${date}`)
+fetch(`https://api.nasa.gov/planetary/apod?api_key=5EuMwVp973fgjxKrLD80Wo2ptgcUbRT9guB53fQM&start_date=${getDate()}&end_date=${date}`)
   .then(response => response.json())
   .then(data => {
     img.src = data[0].url
